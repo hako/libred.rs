@@ -1,0 +1,19 @@
+[package]
+name = "red"
+version = "0.1.0"
+authors = ["Wesley Hill <wesley@hakobaito.co.uk>"]
+license = "GPL-3.0+"
+description = """Safe Rust bindings to the library interface of the Red Programming Language."""
+homepage = "https://github.com/hako/libred.rs"
+exclude = [
+    "/assets/*"
+]
+include = [
+    "**/*.rs",
+    "Cargo.toml",
+]
+
+
+[[example]]
+name = "helloworld"
+path = "examples/helloworld/main.rs"
